@@ -14,6 +14,10 @@
 		A2FDEB0C265E4FA100A647B7 /* Hadi_Note_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2FDEB0A265E4FA100A647B7 /* Hadi_Note_App.xcdatamodeld */; };
 		A2FDEB0E265E4FA400A647B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FDEB0D265E4FA400A647B7 /* Assets.xcassets */; };
 		A2FDEB11265E4FA400A647B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FDEB0F265E4FA400A647B7 /* LaunchScreen.storyboard */; };
+		A2FDEB1A265E501300A647B7 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FDEB19265E501300A647B7 /* DetailsViewController.swift */; };
+		A2FDEB1D265E502100A647B7 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FDEB1C265E502100A647B7 /* AddNoteViewController.swift */; };
+		A2FDEB2A265E567200A647B7 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FDEB28265E567200A647B7 /* Note+CoreDataClass.swift */; };
+		A2FDEB2B265E567200A647B7 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FDEB29265E567200A647B7 /* Note+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		A2FDEB0D265E4FA400A647B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2FDEB10265E4FA400A647B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2FDEB12265E4FA400A647B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2FDEB19265E501300A647B7 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailsViewController.swift; path = "../../Note-App-Core-Data/Note-App-Core-Data/viewController/DetailsViewController.swift"; sourceTree = "<group>"; };
+		A2FDEB1C265E502100A647B7 /* AddNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddNoteViewController.swift; path = "../../Note-App-Core-Data/Note-App-Core-Data/viewController/AddNoteViewController.swift"; sourceTree = "<group>"; };
+		A2FDEB28265E567200A647B7 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataClass.swift"; path = "Hadi-Note-App/Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A2FDEB29265E567200A647B7 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataProperties.swift"; path = "Hadi-Note-App/Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,8 @@
 		A2FDEAF5265E4FA100A647B7 = {
 			isa = PBXGroup;
 			children = (
+				A2FDEB28265E567200A647B7 /* Note+CoreDataClass.swift */,
+				A2FDEB29265E567200A647B7 /* Note+CoreDataProperties.swift */,
 				A2FDEB00265E4FA100A647B7 /* Hadi-Note-App */,
 				A2FDEAFF265E4FA100A647B7 /* Products */,
 			);
@@ -58,7 +68,9 @@
 		A2FDEB00265E4FA100A647B7 /* Hadi-Note-App */ = {
 			isa = PBXGroup;
 			children = (
+				A2FDEB1C265E502100A647B7 /* AddNoteViewController.swift */,
 				A2FDEB01265E4FA100A647B7 /* AppDelegate.swift */,
+				A2FDEB19265E501300A647B7 /* DetailsViewController.swift */,
 				A2FDEB03265E4FA100A647B7 /* SceneDelegate.swift */,
 				A2FDEB05265E4FA100A647B7 /* ViewController.swift */,
 				A2FDEB07265E4FA100A647B7 /* Main.storyboard */,
@@ -141,9 +153,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2FDEB06265E4FA100A647B7 /* ViewController.swift in Sources */,
+				A2FDEB2B265E567200A647B7 /* Note+CoreDataProperties.swift in Sources */,
+				A2FDEB2A265E567200A647B7 /* Note+CoreDataClass.swift in Sources */,
 				A2FDEB0C265E4FA100A647B7 /* Hadi_Note_App.xcdatamodeld in Sources */,
+				A2FDEB1D265E502100A647B7 /* AddNoteViewController.swift in Sources */,
 				A2FDEB02265E4FA100A647B7 /* AppDelegate.swift in Sources */,
 				A2FDEB04265E4FA100A647B7 /* SceneDelegate.swift in Sources */,
+				A2FDEB1A265E501300A647B7 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
